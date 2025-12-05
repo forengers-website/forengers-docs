@@ -21,8 +21,8 @@ eleventyNavigation:
 3. [Getting started](#getting-started)
 4. [Daily workflow](#daily-workflow)
 5. [Deployment rules](#deployment-rules)
-6. [Restoring .env.example](#restoring-envexample)
-7. [Troubleshooting](#troubleshooting)
+6. [Handling accidental deletions](#restoring-deleted-file)
+
 
 ---
 
