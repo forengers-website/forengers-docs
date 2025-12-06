@@ -19,7 +19,7 @@ eleventyNavigation:
 2. [How Umami Works](#how-umami-works)
 3. [What Umami Tracks](#what-umami-tracks)
 4. [How We Use Umami in Code](#how-we-use-umami-in-code)
-5. [List of All Tracking Events Used](#list-of-all-tracking-events-used)    
+5. [## List of All Tracking Events Used](#list-of-all-tracking-events-used)    
 
 ---
 
@@ -113,6 +113,7 @@ We use custom event tracking with:
 
 ```html
 data-umami-event="Event Name"
+```
 
 Whenever a user clicks an element containing this attribute, Umami logs the event under that exact name.
 
@@ -129,6 +130,7 @@ This document provides a complete reference of all **Umami Analytics events** us
 ```html
 data-umami-event="Join Us - Popup"
 data-umami-event="Monthly Plan - Popup"
+```
 
 --- 
 
@@ -139,11 +141,13 @@ Inside ACTION_BUTTONS:
 ```html
 umamiEvent: "Join Us - Navbar"
 umamiEvent: "Donate - Navbar"
+```
 
 Used inside the component as:
 
 ```html
 data-umami-event={button.umamiEvent}
+```
 
 This tracks when a user clicks Join Us or Donate from the navbar.
 
@@ -153,6 +157,7 @@ This tracks when a user clicks Join Us or Donate from the navbar.
 
 ```html
 data-umami-event="Razorpay Page"
+```
 
 Fires when a user opens the Razorpay donation page.
 
@@ -162,6 +167,7 @@ Fires when a user opens the Razorpay donation page.
 
 ```html
 data-umami-event="Join Us - Submit Btn"
+```
 
 Tracks how many users complete the Join Us form and press Submit.
 
@@ -172,6 +178,7 @@ Tracks how many users complete the Join Us form and press Submit.
 ```html
 data-umami-event="Join Us - HeroSection"
 data-umami-event="Monthly Plan - HeroSection"
+```
 
 Tracks engagement with the primary CTA buttons in the hero section.
 
