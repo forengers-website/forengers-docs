@@ -7,25 +7,17 @@ tags:
     - shadcn
     - ui
     - components
-tocEnabled: false
+tocEnabled: true
 date: false
 eleventyNavigation:
     key: shadcn/ui
----
-
-## Table of Contents
-1. [What is shadcn/ui?](#what-is-shadcnui)
-2. [Resources](#top-component-libraries-amp-other-resources)
-3. [UI Components in Our Project](#ui-components-in-our-project)
-4. [Usage Example in the forengers.in Repo](#usage-example-in-the-forengersin-repo)
-5. [Adding New Components using shadcn CLI](#adding-new-components-using-shadcn-cli)
 ---
 
 ## What is shadcn/ui?
 
 **shadcn/ui** is a collection of beautifully designed, accessible React components.
 
-### Key Characteristics
+**Key Characteristics**
 
 - **Easy-to-import components**: Unlike npm packages, shadcn/ui components are designed to be copied directly into your project.
 - **Highly customizable**: You can easily customize your components.
@@ -45,7 +37,7 @@ eleventyNavigation:
 ## UI Components in Our Project
 Located in `src/components/ui`
 
-### Component Structure Example: Card
+**Component Structure Example: Card**
 
 The `Card` component is a composable container system:
 
@@ -75,7 +67,7 @@ export {
 
 ## Usage Example in the forengers.in Repo
 
-### Select Component
+**Select Component**
 
 **Location:** `src/components/contact-us/ContactForm.tsx`
 
@@ -118,7 +110,7 @@ This will:
 1. Create the component file in `src/components/ui/`
 2. Install required dependencies automatically
 3. Update your project configuration
-
-### Customizing Components
+---
+**Customizing Components**
 
 You can customize components by modifying their files in `src/components/ui/`.
