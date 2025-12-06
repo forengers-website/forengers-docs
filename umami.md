@@ -19,7 +19,7 @@ eleventyNavigation:
 2. [How Umami Works](#how-umami-works)
 3. [What Umami Tracks](#what-umami-tracks)
 4. [How We Use Umami in Code](#how-we-use-umami-in-code)
-5. [## List of All Tracking Events Used](#list-of-all-tracking-events-used)    
+5. [List of All Tracking Events Used](#list-of-all-tracking-events-used)    
 
 ---
 
@@ -123,7 +123,6 @@ Whenever a user clicks an element containing this attribute, Umami logs the even
 
 This document provides a complete reference of all **Umami Analytics events** used in the project and where each event is triggered.
 
----
 
 ### 1. Dialog.tsx — Popup Events
 
@@ -132,7 +131,6 @@ data-umami-event="Join Us - Popup"
 data-umami-event="Monthly Plan - Popup"
 ```
 
---- 
 
 ### 2. StickyNavbar.tsx — Navigation Button Events
 
@@ -151,7 +149,6 @@ data-umami-event={button.umamiEvent}
 
 This tracks when a user clicks Join Us or Donate from the navbar.
 
----
 
 ### 3. DonateAction.tsx — Razorpay Redirect Event
 
@@ -161,7 +158,6 @@ data-umami-event="Razorpay Page"
 
 Fires when a user opens the Razorpay donation page.
 
----
 
 ### 4. JoinUsForm.tsx — Form Submission Event
 
@@ -171,7 +167,6 @@ data-umami-event="Join Us - Submit Btn"
 
 Tracks how many users complete the Join Us form and press Submit.
 
----
 
 ### 5. index.astro — Homepage CTA Events
 
